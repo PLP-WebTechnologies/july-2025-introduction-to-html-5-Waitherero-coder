@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elizabeth Waitherero - Web Developer and Designer specializing in accessible, user-friendly websites and applications">
+    <meta name="keywords" content="web developer, web designer, accessibility, frontend development, HTML, CSS, JavaScript">
+    <meta name="author" content="Elizabeth Waitherero">
+   
+    <title>Elizabeth Waitherero | Portfolio</title>
+</head>
+<body>
+    <!-- Skip navigation link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <h1>Elizabeth Waitherero</h1>
+        <p>Web Developer &amp; Designer</p>
+    </header>
+    
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" aria-describedby="about-desc">About</a></li>
+            <li><a href="#projects" aria-describedby="projects-desc">Projects</a></li>
+            <li><a href="#contact" aria-describedby="contact-desc">Contact</a></li>
+        </ul>
+        
+        <!-- Hidden descriptions for screen readers -->
+        <div hidden>
+            <div id="about-desc">Learn more about Elizabeth's background and experience</div>
+            <div id="projects-desc">View examples of recent web development projects</div>
+            <div id="contact-desc">Get in touch for project inquiries</div>
+        </div>
+    </nav>
+    
+    <main id="main-content">
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Welcome to my corner of the web! I'm a passionate web developer creating accessible, user-friendly websites and applications. I specialize in modern web technologies and have a particular focus on ensuring that digital experiences are inclusive for all users.</p>
+            
+            <h3>My Expertise</h3>
+            <ul>
+                <li>Semantic HTML5</li>
+                <li>Web Accessibility (a11y)</li>
+                <li>Responsive Web Design</li>
+                <li>Performance Optimization</li>
+                <li>Search Engine Optimization</li>
+            </ul>
+        </section>
+        
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+            <article>
+                <h3>Accessible Portfolio Website</h3>
+                <p>A personal portfolio showcasing my web development skills with a focus on accessibility. Built with HTML5.</p>
+                <a href="https://github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-Waitherero-coder.git" target="_blank" rel="noopener">View on GitHub</a>
+            </article>
+        </section>
+        
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get In Touch</h2>
+            <p>Ready to start your next project? I'd love to hear from you! Whether you need a new website, accessibility improvements, or just want to discuss web development, feel free to reach out.</p>
+            
+            <address>
+                <p>Email: <a href="mailto:elizabethwaithereru@gmail.com">elizabethwaithereru@gmail.com</a></p>
+                <p>Phone: <a href="tel:+254741081633">+254741081633</a></p>
+                <p>Github: <a href="https://github.com/Waitherero-coder">https://github.com/Waitherero-coder</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/elizabeth-kalondu-4441642a1/">https://www.linkedin.com/in/elizabeth-kalondu-4441642a1/</a></p>
+                <p>Location: Nairobi, Kenya</p>
+            </address>
+        </section>
+    </main>
+    
+    <aside>
+        <section aria-labelledby="tools-heading">
+            <h3 id="tools-heading">Favorite Tools</h3>
+            <ul>
+                <li>VS Code with accessibility extensions</li>
+                <li>WAVE Web Accessibility Evaluation Tool</li>
+                <li>Version Control - Git and GitHub</li>
+            </ul>
+        </section>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Elizabeth Waitherero. All rights reserved.</p>
+    </footer>
+</body>
+</html>
